@@ -6,9 +6,16 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/matrix_transform.h>
 #include <dt-bindings/zmk/bt.h>
 
 / {
+  chosen {
+    zmk,matrix_transform = &six_column_transform;
+  };
+  six_column_transform {
+    col-offset = <7>;
+  };
         keymap {
                 compatible = "zmk,keymap";
 
