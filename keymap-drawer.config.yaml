@@ -149,13 +149,17 @@ parse_config:
     "&mkp LCLK": "$$mdi:mouse-left-click$$"
     "&mkp RCLK": "$$mdi:mouse-right-click$$"
     "&mkp MCLK": "$$mdi:mouse-scroll-wheel$$"
+    "&msc SCRL_LEFT": '$$mdi:transfer-left$$'
+    "&msc SCRL_RIGHT": '$$mdi:transfer-right$$'
+    "&msc SCRL_UP": '$$mdi:transfer-up$$'
+    "&msc SCRL_DOWN": '$$mdi:transfer-down$$'
     "&mmv MOVE_LEFT": "$$mdi:arrow-left-bold-outline$$"
     "&mmv MOVE_RIGHT": "$$mdi:arrow-right-bold-outline$$"
     "&mmv MOVE_UP": "$$mdi:arrow-up-bold-outline$$"
     "&mmv MOVE_DOWN": "$$mdi:arrow-down-bold-outline$$"
     "&caps_word": "$$mdi:keyboard-caps$$"
     "&s_mouse": "$$mdi:mouse-outline$$"
-    "&u_macro_s_bt_sel_0": "Clr BT 0"
+    "&u_macro_s_bt_sel_0": "Clr BT 0"   
     "&u_macro_s_bt_sel_1": "Clr BT 1"
     "&u_macro_s_bt_sel_2": "Clr BT 2"
     "&u_macro_s_bt_sel_3": "Clr BT 3"
@@ -167,7 +171,7 @@ parse_config:
   sticky_label: sticky
   toggle_label: toggle
   trans_legend:
-    t: ▽
+    t: "$$mdi:menu-down-outline$$"
     type: trans
   mark_alternate_layer_activators: false
   zmk_remove_keycode_prefix: ['KP_', 'C_', 'K_']
@@ -206,8 +210,7 @@ parse_config:
     PG_DN: 'Page Down'
     HOME: 'Home'
     END: 'End'
-    SCROLL_DOWN: '$$mdi:transfer-down$$'
-    SCROLL_UP: '$$mdi:transfer-up$$'
+    GLOBE: '$$mdi:web$$'
     HASH: '#'
     POUND: '#'
     DOLLAR: $
@@ -268,4 +271,8 @@ parse_config:
     NON_US_HASH: '#'
     NUHS: '#'
     TILDE2: '~'
-  zmk_combos: {}
+  zmk_combos: 
+    combo_bas_inner_thmbs: {"align": "top", "offset": 0.5}
+    combo_gm_inner_thmbs: {"align": "top", "offset": 0.5}
+    combo_bas_mid_thmbs: {"align": "bottom", "offset": 0.8}
+    combo_bas_outer_thmbs: {"align": "bottom", "offset": 1.5}
