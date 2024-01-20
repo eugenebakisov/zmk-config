@@ -223,8 +223,8 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:transfer-down$$
-  - $$mdi:transfer-up$$
+  - SCROLL DOWN
+  - SCROLL UP
   - ''
   - ''
   - ''
