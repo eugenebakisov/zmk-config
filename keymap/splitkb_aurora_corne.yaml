@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {zmk_keyboard: splitkb_aurora_corne}
 layers:
   BASE:
   - \
@@ -29,7 +29,7 @@ layers:
   - Z
   - X
   - C
-  - V
+  - {t: V, h: '$$mdi:web$$'}
   - B
   - N
   - M
@@ -72,7 +72,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - $$mdi:web$$
   - ''
   - {t: '#', s: '*'}
   - {t: ^, s: '%'}
@@ -201,7 +201,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - $$mdi:web$$
   - ''
   - ''
   - ''
